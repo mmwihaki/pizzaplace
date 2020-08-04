@@ -1,3 +1,10 @@
 .introduction{
-    height: 700px;
+    height: 600px;
+}
+
+.features{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 70px;
 }
