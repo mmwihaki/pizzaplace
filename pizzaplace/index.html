@@ -29,7 +29,7 @@
                     <li class="nav-item"><a href="#" class="nav-link">HOME<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">MENU</a></li>
+                    <li class="nav-item"><a href="images/mamayumyumpizzamenu.pdf" target="_blank" class="nav-link">MENU</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">RESERVATION</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
                 </ul>
@@ -45,14 +45,23 @@
                     <div class="text-block">
                         <form style="padding: 20px;">
                             <div class="form-group">
-                              <label for="exampleInputEmail1">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                              <label for="inputLocation">Delivering to...</label>
+                              <input type="text" class="form-control" id="delivery" aria-describedby="textHelp">
+                              <small id="textHelp" class="form-text text-muted">Select your city</small>
                             </div>
                             <div class="form-group">
-                              <label for="exampleInputPassword1">Password</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                <label for="Location">Area:</label>
+                                <input type="text" class="form-control" id="delivery" aria-describedby="textHelp">
+                                <small id="textHelp" class="form-text text-muted">Select your area</small>
                             </div>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Dropdown</button>
+                                    <div class="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                    </div>
+                                </div>
                             <div class="form-group form-check">
                               <input type="checkbox" class="form-check-input" id="exampleCheck1">
                               <label class="form-check-label" for="exampleCheck1">Check me out</label>
@@ -61,7 +70,7 @@
                           </form>
                     </div>
                     <div class="carousel-caption">
-                        <button type="button" class="btn btn-primary btn-lg">View Menu</button>
+                        <button type="button" class="btn btn-primary btn-lg"><a href="images/mamayumyumpizzamenu.pdf" target="_blank">View Menu</a></button>
                         <button type="button" class="btn btn-secondary btn-lg">Order Online</button>
                     </div>
                 </div>
@@ -138,5 +147,12 @@
 
 
 </body>
-
+<footer style="text-align:centre; margin-left: 50px; margin-right: 50px;">
+    <p style="text-align:left;">
+        Terms and Conditions . Privacy Policy
+        <span style="float:right;">
+            &copy; 2015 mamayumyum.com
+        </span>
+    </p>
+</footer>
 </html>
