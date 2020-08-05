@@ -22,9 +22,6 @@ body{
   }
   
   .text-block {
-    position: absolute;
-    top: 50px;
-    left: 50px;
     background-color: white;
     color: black;
     padding-left: 20px;
